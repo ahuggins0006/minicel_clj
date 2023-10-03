@@ -1,0 +1,4 @@
+{:paths ["src/minicel_clj"]
+ :deps {org.clojure/clojure {:mvn/version "1.11.1"}
+        org.suskalo/coffi {:mvn/version "0.6.409"}}
+ :aliases {:dev {:jvm-opts ["--enable-preview" "--enable-native-access=ALL-UNNAMED"]}}}
